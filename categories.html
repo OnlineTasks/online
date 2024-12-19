@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            flex-grow: 1;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        header {
+            padding: 60px 20px;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+        .content {
+            padding: 20px;
+        }
+        .category {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        .category h2 {
+            margin-top: 0;
+            font-size: 1.8em;
+            color: #ff7e5f;
+        }
+        .category p {
+            margin: 10px 0;
+            font-size: 1em;
+            color: #666;
+            line-height: 1.6;
+        }
+        .category a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #feb47b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .category a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Categories</h1>
+        <p>Browse through various niches and topics.</p>
+    </header>
+
+    <div class="content">
+        <div class="category">
+            <h2>Technology</h2>
+            <p>Explore the latest in tech trends, gadgets, and innovations shaping the future.</p>
+            <a href="technologies.html">Read More</a>
+        </div>
+
+        <div class="category">
+            <h2>Lifestyle</h2>
+            <p>Discover tips and advice to elevate your everyday living and well-being.</p>
+            <a href="lifestyle.html">Read More</a>
+        </div>
+
+        <div class="category">
+            <h2>Personal Development</h2>
+            <p>Learn strategies for growth, resilience, and achieving your goals in life.</p>
+            <a href="development.html">Read More</a>
+        </div>
+        <div class="category">
+            <h2>Health</h2>
+            <p>Learn sompe important health tips for your healthy life.</p>
+            <a href="health.html">Read More</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

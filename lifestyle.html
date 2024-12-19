@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifestyle</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+        }
+        nav {
+            background-color: #333;
+            display: flex;
+            padding: 0;
+            margin: 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            flex-grow: 1;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        header {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background-color: #fff;
+            width: 30%;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h2 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+            color: #ff7e5f;
+        }
+        .card p {
+            font-size: 1em;
+            color: #666;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Lifestyle</h1>
+        <p>Inspiration for living your best life, every single day.</p>
+    </header>
+
+    <div class="content">
+        <div class="card">
+            <h2>Health and Wellness</h2>
+            <p>Discover tips and practices to nurture your mind and body for a healthier, more vibrant life.</p>
+        </div>
+
+        <div class="card">
+            <h2>Travel and Adventure</h2>
+            <p>Get inspired with ideas for your next adventure, from serene escapes to thrilling destinations.</p>
+        </div>
+
+        <div class="card">
+            <h2>Home and Decor</h2>
+            <p>Transform your living spaces into havens of style and comfort with these creative decor tips.</p>
+        </div>
+
+        <div class="card">
+            <h2>Fashion and Style</h2>
+            <p>Stay ahead in fashion trends and create a wardrobe that expresses your unique personality.</p>
+        </div>
+
+        <div class="card">
+            <h2>Relationships</h2>
+            <p>Build meaningful connections and strengthen relationships with heartfelt advice.</p>
+        </div>
+
+        <div class="card">
+            <h2>Personal Growth</h2>
+            <p>Empower yourself with actionable steps to achieve your goals and live your dream life.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

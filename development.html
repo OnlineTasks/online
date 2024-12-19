@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Development</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        nav {
+            background-color: #333;
+            display: flex;
+            padding: 0;
+            margin: 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            flex-grow: 1;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        header {
+            background: linear-gradient(to right, #3b8d99, #6bcecf);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background-color: white;
+            width: 30%;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h2 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+            color: #3b8d99;
+        }
+        .card p {
+            font-size: 1em;
+            color: #666;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Personal Development</h1>
+        <p>Empower yourself with tools and strategies for growth and success.</p>
+    </header>
+
+    <div class="content">
+        <div class="card">
+            <h2>Goal Setting</h2>
+            <p>Learn how to set realistic and achievable goals to drive your progress and motivation.</p>
+        </div>
+
+        <div class="card">
+            <h2>Time Management</h2>
+            <p>Master the art of prioritization and effective time use to maximize productivity.</p>
+        </div>
+
+        <div class="card">
+            <h2>Emotional Intelligence</h2>
+            <p>Develop skills to understand and manage your emotions and build meaningful relationships.</p>
+        </div>
+
+        <div class="card">
+            <h2>Continuous Learning</h2>
+            <p>Adopt a growth mindset and discover resources to expand your knowledge and skills.</p>
+        </div>
+
+        <div class="card">
+            <h2>Resilience and Grit</h2>
+            <p>Strengthen your ability to overcome challenges and stay determined in the face of adversity.</p>
+        </div>
+
+        <div class="card">
+            <h2>Self-Care Practices</h2>
+            <p>Integrate self-care routines into your life to maintain balance and well-being.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
